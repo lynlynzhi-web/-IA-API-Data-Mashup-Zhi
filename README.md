@@ -26,9 +26,9 @@ The Notion API is used to integrate the system with a Notion Database. This allo
 
 3. Open the ‘.env’ file in the folder
 
-    - Paste your Notion token
+    - Paste your Internal Integration Secret in NOTION_TOKEN=
 
-    - Create a Notion Database
+4. Create a Notion Database
 
     - Open Notion and create a new database
 
@@ -37,15 +37,16 @@ The Notion API is used to integrate the system with a Notion Database. This allo
       - Name (Title)
       - Email (Email)
       - Message (Text)
-4. Get your Database ID
+5. Get your Database ID
       - Look at the URL (https://www.notion.so/xxxxxxxxxxxxxxxxxx?v=...)
       - Copy (xxxxxxxxxxxxx), this is your Database ID
-      - Add it to your .env file
-5. Share Database with Integration
+      - Open your .env file
+      - Paste it in NOTION_DATABASE_ID=
+6. Share Database with Integration
       - Click the three dots on the upper right corner
       - Click “Connections”
       - Search for “Kitchen Wheel Lead Form” and connect it
-6. Open your terminal
+7. Open your terminal
       - Navigate to your project folder
           - Type cd “API Integration”
           - Type node server.js to start the server
