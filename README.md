@@ -43,6 +43,7 @@ The Notion API is used to integrate the system with a Notion Database. This allo
       - Open your .env file
       - Paste it in NOTION_DATABASE_ID=
 6. Share Database with Integration
+      - Go to your Notion database
       - Click the three dots on the upper right corner
       - Click “Connections”
       - Search for “Kitchen Wheel Lead Form” and connect it
