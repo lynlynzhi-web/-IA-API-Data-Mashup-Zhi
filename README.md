@@ -49,7 +49,7 @@ The Notion API is used to integrate the system with a Notion Database. This allo
       - Search for “Kitchen Wheel Lead Form” and connect it
 7. Open your terminal
       - Navigate to your project folder
-          - Type cd “API Integration”
+          - Type cd “[IA]-API-Integration”
           - Type node server.js to start the server
           - Copy the local link shown in your terminal and paste it into your browser.
 
